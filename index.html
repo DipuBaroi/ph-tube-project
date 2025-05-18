@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH Tube</title>
-    
+
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <header>
         <!-- nav section -->
-         <nav class="w-11/12 mx-auto flex justify-between border-b-2 py-5 items-center border-[#17171720]">
+        <nav class="w-11/12 mx-auto flex justify-between border-b-2 py-5 items-center border-[#17171720]">
             <div>
                 <img class="w-[120px]" src="assets/Logo.png" alt="">
             </div>
@@ -21,18 +23,24 @@
             <div>
                 <button class="btn bg-[#FF1F3D] text-white">Blogs</button>
             </div>
-         </nav>
-         <!-- category section -->
-          <nav id="category-container" class="flex justify-center gap-5 py-5">
+        </nav>
+        <!-- category section -->
+        <nav id="category-container" class="flex justify-center gap-5 py-5">
             <div>
-                <button class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+                <button onclick="loadVideo()" class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
             </div>
-            
-            
-          </nav>
+
+
+        </nav>
     </header>
+    <main>
+        <section id="video-container" class="w-11/12 mx-auto grid grid-cols-4 gap-5">
+            
+        </section>
+    </main>
 
     <!-- scripts -->
-     <script src="script/index.js"></script>
+    <script src="script/index.js"></script>
 </body>
+
 </html>
